@@ -496,7 +496,7 @@ document.getElementById('tracking-form').addEventListener('submit', async functi
     // Find order
   let order;
   try {
-    const res = await fetch('http://localhost:5000/api/orders/track/' + orderId);
+    const res = await fetch((typeof API_BASE !== 'undefined' ? API_BASE : '/api') + '/orders/track/' + orderId);
     if (res.ok) {
       const data = await res.json();
       if (data.userEmail.toLowerCase() === email.toLowerCase()) {
