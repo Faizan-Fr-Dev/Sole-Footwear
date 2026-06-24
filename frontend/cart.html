@@ -493,7 +493,7 @@ function renderCart() {
 
   container.innerHTML = cart.items.map((item, idx) => `
     <div class="cart-item">
-      <div class="item-image"></div>
+      <div class="item-image">${item.name.substring(0, 2).toUpperCase()}</div>
       <div class="item-details">
         <h3>${item.name}</h3>
         <div class="item-style">${item.style}</div>
