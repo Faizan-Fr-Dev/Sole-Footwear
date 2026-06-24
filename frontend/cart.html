@@ -166,11 +166,10 @@
 
   .item-image {
     width: 80px; height: 80px;
-    background: linear-gradient(135deg, var(--accent) 0%, #ff6b00 100%);
+    background: var(--accent);
     border-radius: 4px;
     display: flex; align-items: center; justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 24px;
+    font-size: 36px;
     color: #080808;
   }
 
@@ -493,7 +492,7 @@ function renderCart() {
 
   container.innerHTML = cart.items.map((item, idx) => `
     <div class="cart-item">
-      <div class="item-image">${item.name.substring(0, 2).toUpperCase()}</div>
+      <div class="item-image">👟</div>
       <div class="item-details">
         <h3>${item.name}</h3>
         <div class="item-style">${item.style}</div>
