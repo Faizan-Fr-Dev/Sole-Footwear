@@ -3,7 +3,8 @@
 A premium, full-stack e-commerce web application engineered at the intersection of performance and design. Built for high-end sneaker enthusiasts, it features interactive 3D product models, a sleek brutalist dark-mode aesthetic, complete cart functionality, and a secure administrative dashboard.
 
 ## 🚀 Live Demo & Deployments
-- **Frontend & Backend**: Deployed on Railway
+- **Live Application**: [https://sole-footwear-production.up.railway.app](https://sole-footwear-production.up.railway.app)
+- **Backend Infrastructure**: Deployed securely on Railway
 
 ## ✨ Features
 
