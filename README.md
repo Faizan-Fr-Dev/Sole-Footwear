@@ -4,7 +4,8 @@ A premium, full-stack e-commerce web application engineered at the intersection 
 
 ## 🚀 Live Demo & Deployments
 - **Live Application**: [https://sole-footwear-production.up.railway.app](https://sole-footwear-production.up.railway.app)
-- **Backend Infrastructure**: Deployed securely on Railway
+- **Backend Infrastructure**: Deployed securely on Railway         > **Note:** The live demo was previously deployed on Railway. It is currently unavailable due to hosting/usage limitations. The project source code remains available in this repository.
+
 
 ## ✨ Features
 
